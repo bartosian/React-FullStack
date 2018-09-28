@@ -1,0 +1,26 @@
+.sign-head {
+    font-size: 1.8rem;
+    color:#638165;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.sign-wrap {
+    display: flex;
+    padding: 50px 50px 80px 50px;
+    box-sizing: border-box;
+}
+
+.from-wrap, .btn-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 50% !important;
+}
+
+.sign-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
