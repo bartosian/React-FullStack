@@ -40,6 +40,7 @@
     padding-right: 50px;
     box-sizing: border-box;
     color: grey;
+    position: relative;
 }
 
 .sign-form input,
@@ -62,4 +63,17 @@
     margin-top: 40px;
     color: grey;
     width: 220px;
+}
+
+.alert {
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    width: 100%;
+    padding: 12px;
+    background: rgba(214, 102, 102, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px black;
 }

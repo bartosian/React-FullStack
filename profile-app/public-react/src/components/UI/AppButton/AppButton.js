@@ -1,7 +1,7 @@
 import React from 'react';
 
 const appButton =  (props) => {
-    const { bg, children  } = props;
+    const { bg, children, clicked  } = props;
 
     const styles = bg === 'green' ? (
         {
@@ -30,7 +30,7 @@ const appButton =  (props) => {
     );
 
     return (
-        <button style={ styles }>{ children }</button>
+        <button style={ styles } onClick={ clicked ? clicked : null }>{ children }</button>
     );
 };
 

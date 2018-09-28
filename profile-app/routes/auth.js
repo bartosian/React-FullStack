@@ -8,10 +8,6 @@ const bcrypt = require("bcrypt");
 const bcryptSalt = 10;
 
 
-router.get("/login", (req, res, next) => {
-  res.render("auth/login", { "message": req.flash("error") });
-});
-
 router.post('/login', (req, res, next) => {
     passport.authenticate('local', (err, theUser, failureDetails) => {
         if (err) {
@@ -41,9 +37,6 @@ router.post('/login', (req, res, next) => {
     })(req, res, next);
 });
 
-router.get("/signup", (req, res, next) => {
-  res.render("auth/signup");
-});
 
 router.post("/signup", (req, res, next) => {
 

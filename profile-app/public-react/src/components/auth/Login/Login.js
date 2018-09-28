@@ -10,27 +10,37 @@ class Login extends Component {
         this.state = {
             username: '',
             password: '',
-            campus: '',
-            course: ''
+            error: ''
         };
 
         this.service = new AuthService();
     }
 
-    handleFormSubmit = (event) => {
-        event.preventDefault();
+    handleFormSubmit = () => {
 
-        const { username, password, course, campus } = this.state;
+        const { username, password } = this.state;
 
-        this.service.signup(username, password)
+        this.service.login(username, password)
             .then( response => {
                 this.setState({
                     username: "",
                     password: ""
                 });
+
+                this.props.history.push('/');
                 // this.props.getUser(response)
             })
-            .catch( error => console.log(error) )
+            .catch( error => {
+                this.setState({
+                    error: "Something went wrong!"
+                });
+
+                setTimeout(() => {
+                    this.setState({
+                        error: ""
+                    });
+                }, 2000);
+            } )
     };
 
     handleChange = (event) => {
@@ -40,11 +50,17 @@ class Login extends Component {
 
 
     render(){
+
+        const error = this.state.error ? (
+            <div className="alert">{ this.state.error }</div>
+        ) : null;
+
         return(
             <div className="home-wrapper sign-wrap">
                 <div className="form-wrap">
                     <h1 className="sign-head">Log in</h1>
                     <form className="sign-form">
+                        { error }
                         <label>Username:</label>
                         <input type="text" name="username" value={this.state.username} onChange={ e => this.handleChange(e)}/>
 
@@ -58,7 +74,7 @@ class Login extends Component {
                     <h3 id="log-head">Hello!!</h3>
                     <p className="main-text">Awesome to have at IronProfile again!</p>
                     <p className="sub-text">If you sign, you agree with all our terms and conditions where we can do whatever we want with the data!</p>
-                    <AppButton bg="white" type="submit" className="sign-btn" onClick={ this.handleFormSubmit }>Log in</AppButton>
+                    <AppButton bg="white" type="submit" className="sign-btn" clicked={ this.handleFormSubmit }>Log in</AppButton>
                 </div>
 
             </div>
