@@ -1,0 +1,32 @@
+.user-info {
+    width: 100%;
+    height: 70px;
+}
+
+.info-name {
+    margin-top: 40px;
+}
+
+.header-info {
+    margin-top: 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.user-info h3 {
+    margin-bottom: 5px;
+    color: grey;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.user-info p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
