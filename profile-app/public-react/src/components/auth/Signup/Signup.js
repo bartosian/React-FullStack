@@ -15,7 +15,29 @@ class Signup extends Component {
         this.service = new AuthService();
     }
 
-    // handleChange() and handleSubmit() will be added here
+    handleFormSubmit = (event) => {
+        event.preventDefault();
+
+        const { username, password, course, campus } = this.state;
+
+        this.service.signup(username, password)
+            .then( response => {
+                this.setState({
+                    username: "",
+                    password: "",
+                    course: "",
+                    campus: ""
+                });
+                // this.props.getUser(response)
+            })
+            .catch( error => console.log(error) )
+    };
+
+    handleChange = (event) => {
+        const {name, value} = event.target;
+        this.setState({[name]: value});
+    };
+
 
     render(){
         return(
