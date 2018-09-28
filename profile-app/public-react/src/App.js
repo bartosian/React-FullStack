@@ -6,12 +6,25 @@ import Login from './components/auth/Login/Login';
 import './App.css';
 
 class App extends Component {
-  render() {
+
+    constructor(props){
+        super(props);
+        this.state = { loggedInUser: null };
+    }
+
+    getTheUser= (userObj) => {
+        this.setState({
+            loggedInUser: userObj
+        })
+    };
+
+
+    render() {
     return (
       <Switch>
           <Route exact path="/" component={ HomePage } />
-          <Route exact path="/signup" component={ Signup }/>
-          <Route exact path="/login" component={ Login }/>
+          <Route exact path="/signup" render= { () => <Signup getUser={this.getTheUser}/>} />
+          <Route exact path="/login" render= { () => <Login getUser={this.getTheUser}/>}/>
       </Switch>
     );
   }
