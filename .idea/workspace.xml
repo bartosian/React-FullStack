@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,23 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
+      <file leaf-file-name="AppButton.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -49,8 +37,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/profile-app/public-react/src/App.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/index.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/App.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" />
       </list>
     </option>
   </component>
@@ -107,6 +96,33 @@
               <item name="public-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="AppButton" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,6 +140,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profile-app/public-react/src/components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -150,12 +169,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
-      <workItem from="1538156597483" duration="554000" />
+      <workItem from="1538156597483" duration="1196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="554000" />
+    <option name="totallyTimeSpent" value="1196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
@@ -187,13 +206,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -201,6 +213,20 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
