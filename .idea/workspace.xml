@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/oval-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/assets/oval-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" afterDir="false" />
     </list>
@@ -18,11 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppButton.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppButton.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="260">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -36,11 +40,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="114">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -57,9 +91,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/profile-app/public-react/src/index.js" />
-        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/App.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/App.css" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" />
       </list>
     </option>
   </component>
@@ -109,49 +145,6 @@
               <item name="profile-app" type="462c0819:PsiDirectoryNode" />
               <item name="public-react" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="AppButton" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,6 +163,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profile-app/public-react/src" />
+      <recent name="$PROJECT_DIR$/profile-app" />
       <recent name="$PROJECT_DIR$/profile-app/public-react/src/components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -198,16 +193,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
-      <workItem from="1538156597483" duration="1642000" />
+      <workItem from="1538156597483" duration="2212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1642000" />
+    <option name="totallyTimeSpent" value="2212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -235,6 +229,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/assets/oval-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -242,6 +239,21 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -254,18 +266,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

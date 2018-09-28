@@ -10,7 +10,8 @@ const appButton =  (props) => {
             padding: '10px',
             outline: 'none',
             width: '150px',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            border: 'none'
         }
     ) : (
         {
@@ -19,7 +20,8 @@ const appButton =  (props) => {
             padding: '10px',
             outline: 'none',
             width: '150px',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            border: 'none'
         }
     );
 

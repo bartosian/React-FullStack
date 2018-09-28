@@ -1,0 +1,6 @@
+.home-wrapper {
+    box-shadow: 5px 5px 15px black;
+    width: 717px;
+    height: 458px;
+    background-image: url("../../assets/oval-bg.png");
+}
