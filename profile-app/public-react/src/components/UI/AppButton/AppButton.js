@@ -5,13 +5,15 @@ const appButton =  (props) => {
 
     const styles = bg === 'green' ? (
         {
-            background: '#638165',
-            color: 'white',
+            background: 'rgb(183, 229, 186)',
+            color: 'black',
             padding: '10px',
             outline: 'none',
-            width: '150px',
+            width: '200px',
             cursor: 'pointer',
-            border: 'none'
+            border: 'none',
+            margin: '10px',
+            'border-radius': '7px'
         }
     ) : (
         {
@@ -19,9 +21,11 @@ const appButton =  (props) => {
             color: 'grey',
             padding: '10px',
             outline: 'none',
-            width: '150px',
+            width: '200px',
             cursor: 'pointer',
-            border: 'none'
+            border: 'none',
+            margin: '10px',
+            'border-radius': '7px'
         }
     );
 
