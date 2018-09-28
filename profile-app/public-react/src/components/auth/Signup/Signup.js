@@ -74,9 +74,10 @@ class Signup extends Component {
                     </form>
                 </div>
                <div className="btn-wrap">
-                   <p className="main-text">Today we will create cool app with authorization, adding some cool styles.</p>
-                   <p>Today we will create cool app with authorization, adding some cool styles.</p>
-                   <AppButton bg="white" type="submit" onClick={ this.handleFormSubmit }>Create the account</AppButton>
+                   <h3>Hello!!</h3>
+                   <p className="main-text">Welcome to IronProfile!</p>
+                   <p className="sub-text">If you sign, you agree with all our terms and conditions where we can do whatever we want with the data!</p>
+                   <AppButton bg="white" type="submit" className="sign-btn" onClick={ this.handleFormSubmit }>Create the account</AppButton>
                </div>
 
             </div>
