@@ -10,6 +10,11 @@ class AuthService {
         this.service = service;
     }
 
+    signup = (username, password) => {
+        return this.service.post('/signup', {username, password})
+            .then(response => response.data)
+    }
+
 }
 
 export default AuthService;
