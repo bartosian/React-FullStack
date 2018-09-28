@@ -13,7 +13,7 @@ const appButton =  (props) => {
             cursor: 'pointer',
             border: 'none',
             margin: '10px',
-            'border-radius': '7px'
+            borderRadius: '7px'
         }
     ) : (
         {
@@ -25,7 +25,7 @@ const appButton =  (props) => {
             cursor: 'pointer',
             border: 'none',
             margin: '10px',
-            'border-radius': '7px'
+            borderRadius: '7px'
         }
     );
 

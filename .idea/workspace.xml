@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="AppButton.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="458">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -62,8 +59,8 @@
       <file leaf-file-name="HomePage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="313">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -91,8 +88,8 @@
         <option value="$PROJECT_DIR$/profile-app/public-react/src/index.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/App.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/App.css" />
-        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" />
       </list>
     </option>
@@ -206,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
-      <workItem from="1538156597483" duration="3493000" />
+      <workItem from="1538156597483" duration="3982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3493000" />
+    <option name="totallyTimeSpent" value="3982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
@@ -256,20 +253,6 @@
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/assets/oval-bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -287,10 +270,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="313">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
