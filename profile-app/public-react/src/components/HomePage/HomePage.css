@@ -32,3 +32,13 @@
     font-size: 1.2rem;
     font-weight: lighter;
 }
+
+.nav-btn {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn:hover {
+    color: white;
+}
