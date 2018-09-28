@@ -18,8 +18,9 @@ class Signup extends Component {
     }
 
     handleFormSubmit = () => {
-
+        console.log(this.props);
         const { username, password, course, campus } = this.state;
+        const { history } = this.props;
 
 
         this.service.signup(username, password, campus, course)
@@ -31,8 +32,9 @@ class Signup extends Component {
                     campus: ""
                 });
 
-                this.props.history.push('/');
-                // this.props.getUser(response)
+                this.props.getUser(response);
+                history.push('/profile');
+
             })
             .catch( error => {
                 this.setState({
