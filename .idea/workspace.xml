@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signp.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="auth-service.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js">
+      <file leaf-file-name="Signup.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="38">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,6 +44,7 @@
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.css" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" />
       </list>
     </option>
   </component>
@@ -105,6 +109,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="Signup" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,25 +176,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
-      <workItem from="1538156597483" duration="5222000" />
+      <workItem from="1538156597483" duration="5690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5222000" />
+    <option name="totallyTimeSpent" value="5690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3288835" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3288835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -243,8 +266,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="405">
           <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Login/Login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
