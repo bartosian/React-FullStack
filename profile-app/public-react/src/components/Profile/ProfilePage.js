@@ -71,7 +71,8 @@ class ProfilePage extends Component {
                                 <div className="img-user">
                                     <img src={ this.state.file } alt="user"/>
                                 </div>
-                                <p>HELLO USER!</p>
+                                <p className="text-hint">You can choose another picture.</p>
+                                <AppButton bg="white" clicked={ () => this.setState({ showImage: false }) }>Edit Photo</AppButton>
                             </Fragment>
 
                         )
