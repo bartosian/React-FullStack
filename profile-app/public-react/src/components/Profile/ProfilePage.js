@@ -22,10 +22,10 @@ const profilePage = (props) => (
             </div>
             <AppButton bg="white"><Link className="Log-link" to="/logout">Logout</Link></AppButton>
         </div>
-        <div className="info">
-            <div>
-               <i className="fa fa-user-circle"></i>
-            </div>
+        <div className="info info-loader">
+               <i className="fa fa-user-circle circle"></i>
+                <AppButton bg="white">Edit Photo</AppButton>
+                <p className="text-uploader">The user is able to upload a new profile photo, using Node.js and Multer uploader.</p>
         </div>
     </div>
 

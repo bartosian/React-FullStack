@@ -41,3 +41,25 @@
 .profile-blog {
     display: flex;
 }
+
+.info-loader {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    font-size: 11rem;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.text-uploader {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: grey;
+    width: 200px;
+    align-self: flex-start;
+}
