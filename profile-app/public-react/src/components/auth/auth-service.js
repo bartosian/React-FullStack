@@ -29,6 +29,20 @@ class AuthService {
         return this.service.post('/logout', {})
             .then(response => response.data)
     };
+
+    addPicture(file) {
+        const formData = new FormData();
+        formData.append("picture", file)
+        console.log('DEBUG formData', formData.get("picture"));
+        return service
+            .post('/auth/upload', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data',
+                },
+            })
+            .then(res => res.data)
+            .catch(errHandler);
+    }
 }
 
 export default AuthService;
