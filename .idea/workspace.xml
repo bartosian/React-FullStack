@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/routes/auth.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,29 +22,41 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-647">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilePage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="48" column="14" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="48" selection-end-column="14" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfilePage.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProfilePage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="70" column="56" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfilePage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            <state relative-caret-position="316">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -49,8 +64,8 @@
       <file leaf-file-name="auth-service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="196">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -58,8 +73,8 @@
       <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/routes/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2135">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="275">
+              <caret line="127" column="57" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -101,10 +116,10 @@
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" />
         <option value="$PROJECT_DIR$/profile-app/.env" />
         <option value="$PROJECT_DIR$/profile-app/config/cloudinary.js" />
-        <option value="$PROJECT_DIR$/profile-app/routes/auth.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js" />
-        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css" />
+        <option value="$PROJECT_DIR$/profile-app/routes/auth.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js" />
+        <option value="$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css" />
       </list>
     </option>
   </component>
@@ -188,7 +203,35 @@
               <item name="public-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="AppButton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,25 +283,25 @@
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
       <workItem from="1538156597483" duration="15478000" />
-      <workItem from="1538185136420" duration="7171000" />
+      <workItem from="1538185136420" duration="9035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22649000" />
+    <option name="totallyTimeSpent" value="24513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288835" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288835" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,6 +324,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -289,7 +335,7 @@
         <state relative-caret-position="133">
           <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="37" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -372,13 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Login/Login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -416,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-647">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -457,34 +489,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/UI/AppButton/AppButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/routes/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2135">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="275">
+          <caret line="127" column="57" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="196">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css">
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="48" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="70" column="56" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="56" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
         </state>
       </provider>
     </entry>

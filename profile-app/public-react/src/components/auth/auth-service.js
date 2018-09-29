@@ -32,10 +32,10 @@ class AuthService {
 
     addPicture(file) {
         const formData = new FormData();
-        formData.append("picture", file)
+        formData.append("picture", file);
         console.log('DEBUG formData', formData.get("picture"));
         return this.service
-            .post('/auth/upload', formData, {
+            .post('/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

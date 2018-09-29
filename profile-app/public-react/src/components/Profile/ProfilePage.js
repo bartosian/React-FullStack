@@ -1,13 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './ProfilePage.css';
 import AppButton from '../../components/UI/AppButton/AppButton';
 import { Link } from 'react-router-dom';
+import AuthService from '../auth/auth-service';
 
 
 class ProfilePage extends Component {
 
+    constructor(props) {
+        super(props);
+        this.authService = new AuthService();
+    }
+
     state = {
-        file: ""
+        file: "",
+        showImage: false
     };
 
     handleChange(e) {
@@ -16,8 +23,17 @@ class ProfilePage extends Component {
         })
     };
 
+    handleSubmit = () => {
+        this.authService.addPicture(this.state.file)
+            .then( data => {
+               this.setState({
+                   file: data.image,
+                   showImage: true
+               })
+            });
+    };
+
     selectPhoto = () => {
-        console.log("Click");
       this.input.click();
     };
 
@@ -41,10 +57,26 @@ class ProfilePage extends Component {
                     <AppButton bg="white"><Link className="Log-link" to="/logout" onClick={() => this.props.logout(this.props.history) }>Logout</Link></AppButton>
                 </div>
                 <div className="info info-loader">
-                    <i className="fa fa-user-circle circle" onClick={ this.selectPhoto }></i>
-                    <input className="photo-loader" ref={ (node) => this.input = node } onChange={(e)=>this.handleChange(e)} name="picture"  type="file"/>
-                    <AppButton bg="white">Edit Photo</AppButton>
-                    <p className="text-uploader">The user is able to upload a new profile photo, using Node.js and Multer uploader.</p>
+                    {
+                        !this.state.showImage ? (
+                            <Fragment>
+                                <i className="fa fa-user-circle circle" onClick={ this.selectPhoto }></i>
+                                <input className="photo-loader" ref={ (node) => this.input = node } onChange={(e)=>this.handleChange(e)} name="picture"  type="file"/>
+                                <AppButton bg="white" clicked={ this.handleSubmit }>Edit Photo</AppButton>
+                                <p className="text-uploader">The user is able to upload a new profile photo, using Node.js and Multer uploader.</p>
+                            </Fragment>
+
+                        ) : (
+                            <Fragment>
+                                <div className="img-user">
+                                    <img src={ this.state.file } alt="user"/>
+                                </div>
+                                <p>HELLO USER!</p>
+                            </Fragment>
+
+                        )
+                    }
+
                 </div>
             </div>
 

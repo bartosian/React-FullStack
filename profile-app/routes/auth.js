@@ -125,7 +125,7 @@ router.get('/loggedin', (req, res, next) => {
 });
 
 router.post('/upload', parser.single('picture'), (req, res, next) => {
-    User.findOneAndUpdate({}, { image: req.file.url })
+    User.findOneAndUpdate({ username : req.user.username }, { image: req.file.url })
         .then(() => {
             res.json({
                 success: true,
