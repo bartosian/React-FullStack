@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import  HomePage  from './components/HomePage/HomePage';
 import Signup from './components/auth/Signup/Signup';
 import Login from './components/auth/Login/Login';
 import ProfilePage from './components/Profile/ProfilePage';
+import AuthService from './components/auth/auth-service';
 import './App.css';
 
 class App extends Component {
@@ -11,9 +12,10 @@ class App extends Component {
     constructor(props){
         super(props);
         this.state = { loggedInUser: null };
+        this.service = new AuthService();
     }
 
-    fetchUser(){
+    fetchUser = () => {
         if( this.state.loggedInUser === null ){
             this.service.loggedin()
                 .then(response =>{
@@ -29,6 +31,9 @@ class App extends Component {
         }
     }
 
+    componentWillMount() {
+        this.fetchUser();
+    }
 
     getTheUser= (userObj) => {
         this.setState({
@@ -36,12 +41,20 @@ class App extends Component {
         })
     };
 
+    logoutUser = (history) =>{
+        this.service.logout()
+            .then(() => {
+                this.setState({ loggedInUser: null });
+                history.push('/');
+            })
+    };
+
 
     render() {
     return (
       <Switch>
-          <Route exact path="/" component={ HomePage } />
-          <Route exact path="/profile" render = { (props) => <ProfilePage {...props} userInSession={ this.state.loggedInUser }/>} />
+          <Route exact path="/" render = {(props) => { return this.state.loggedInUser ? (<Redirect to="/profile" />) : (<HomePage />)}}/>
+          <Route exact path="/profile" render = { (props) => <ProfilePage {...props} userInSession={ this.state.loggedInUser } logout={ this.logoutUser }/>} />
           <Route exact path="/signup" render= { (props) => <Signup {...props} getUser={this.getTheUser}/>} />
           <Route exact path="/login" render= { (props) => <Login {...props} getUser={this.getTheUser}/>}/>
       </Switch>

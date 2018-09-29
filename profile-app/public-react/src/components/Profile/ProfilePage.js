@@ -20,7 +20,7 @@ const profilePage = (props) => (
                 <h3>Course</h3>
                 <p>{ props.userInSession ? props.userInSession.course : null }</p>
             </div>
-            <AppButton bg="white"><Link className="Log-link" to="/logout">Logout</Link></AppButton>
+            <AppButton bg="white"><Link className="Log-link" to="/logout" onClick={() => props.logout(props.history) }>Logout</Link></AppButton>
         </div>
         <div className="info info-loader">
                <i className="fa fa-user-circle circle"></i>
