@@ -1,5 +1,7 @@
 import React from 'react';
 import './ProfilePage.css';
+import AppButton from '../../components/UI/AppButton/AppButton';
+import { Link } from 'react-router-dom';
 
 
 const profilePage = (props) => (
@@ -8,16 +10,17 @@ const profilePage = (props) => (
             <h1 className="header-info">Profile</h1>
             <div className="user-info info-name">
                 <h3>Username</h3>
-                <p>{ props.userInSession.username }</p>
+                <p>{ props.userInSession ? props.userInSession.username : null }</p>
             </div>
             <div className="user-info">
                 <h3>Campus</h3>
-                <p>{ props.userInSession.campus }</p>
+                <p>{ props.userInSession ? props.userInSession.campus : null }</p>
             </div>
             <div className="user-info">
                 <h3>Course</h3>
-                <p>{ props.userInSession.course }</p>
+                <p>{ props.userInSession ? props.userInSession.course : null }</p>
             </div>
+            <AppButton bg="white"><Link className="Log-link" to="/logout">Logout</Link></AppButton>
         </div>
     </div>
 );
