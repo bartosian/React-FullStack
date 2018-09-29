@@ -13,6 +13,23 @@ class App extends Component {
         this.state = { loggedInUser: null };
     }
 
+    fetchUser(){
+        if( this.state.loggedInUser === null ){
+            this.service.loggedin()
+                .then(response =>{
+                    this.setState({
+                        loggedInUser:  response
+                    })
+                })
+                .catch( err =>{
+                    this.setState({
+                        loggedInUser:  false
+                    })
+                })
+        }
+    }
+
+
     getTheUser= (userObj) => {
         this.setState({
             loggedInUser: userObj
