@@ -6,6 +6,16 @@ import { Link } from 'react-router-dom';
 
 class ProfilePage extends Component {
 
+    state = {
+        file: ""
+    };
+
+    handleChange(e) {
+        this.setState({
+            file: e.target.files[0]
+        })
+    };
+
     selectPhoto = () => {
         console.log("Click");
       this.input.click();
@@ -32,7 +42,7 @@ class ProfilePage extends Component {
                 </div>
                 <div className="info info-loader">
                     <i className="fa fa-user-circle circle" onClick={ this.selectPhoto }></i>
-                    <input className="photo-loader" ref={ (node) => this.input = node } type="file"/>
+                    <input className="photo-loader" ref={ (node) => this.input = node } onChange={(e)=>this.handleChange(e)} name="picture"  type="file"/>
                     <AppButton bg="white">Edit Photo</AppButton>
                     <p className="text-uploader">The user is able to upload a new profile photo, using Node.js and Multer uploader.</p>
                 </div>
