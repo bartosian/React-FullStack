@@ -18,7 +18,6 @@ class Signup extends Component {
     }
 
     handleFormSubmit = () => {
-        console.log(this.props);
         const { username, password, course, campus } = this.state;
         const { history } = this.props;
 
