@@ -13,8 +13,8 @@ class ProfilePage extends Component {
     }
 
     state = {
-        file: "",
-        showImage: false
+        file: this.props.userInSession.image,
+        showImage: !!this.props.userInSession.image
     };
 
     handleChange(e) {
