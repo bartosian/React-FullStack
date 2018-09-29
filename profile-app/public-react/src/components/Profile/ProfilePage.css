@@ -54,6 +54,11 @@
     font-size: 11rem;
     color: grey;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.circle:hover {
+    color: deepskyblue;
 }
 
 .text-uploader {
@@ -62,4 +67,8 @@
     color: grey;
     width: 200px;
     align-self: flex-start;
+}
+
+.photo-loader {
+    display: none;
 }

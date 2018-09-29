@@ -34,14 +34,13 @@ class AuthService {
         const formData = new FormData();
         formData.append("picture", file)
         console.log('DEBUG formData', formData.get("picture"));
-        return service
+        return this.service
             .post('/auth/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
             })
-            .then(res => res.data)
-            .catch(errHandler);
+            .then(res => res.data);
     }
 }
 
