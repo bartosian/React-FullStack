@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/profile-app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/config/cloudinary.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/config/cloudinary.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -64,59 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfilePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.js">
+      <file leaf-file-name="cloudinary.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile-app/config/cloudinary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="115" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilePage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/Profile/ProfilePage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/HomePage/HomePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Login/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -147,6 +100,7 @@
         <option value="$PROJECT_DIR$/profile-app/public-react/src/App.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" />
         <option value="$PROJECT_DIR$/profile-app/.env" />
+        <option value="$PROJECT_DIR$/profile-app/config/cloudinary.js" />
       </list>
     </option>
   </component>
@@ -166,7 +120,7 @@
       <path value="$PROJECT_DIR$/profile-app/public-react/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="140" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -190,86 +144,6 @@
               <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
               <item name="profile-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="Signup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-FullStack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-FullStack" type="462c0819:PsiDirectoryNode" />
-              <item name="profile-app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -287,13 +161,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/profile-app" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/profile-app/public-react/src" />
       <recent name="$PROJECT_DIR$/profile-app" />
       <recent name="$PROJECT_DIR$/profile-app/public-react/src/components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,25 +194,25 @@
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
       <workItem from="1538156597483" duration="15478000" />
-      <workItem from="1538185136420" duration="4780000" />
+      <workItem from="1538185136420" duration="5097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20258000" />
+    <option name="totallyTimeSpent" value="20575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288835" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3288835" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -554,6 +429,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/config/cloudinary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
