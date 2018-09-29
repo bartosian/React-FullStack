@@ -2,6 +2,7 @@ const express = require("express");
 const passport = require('passport');
 const router = express.Router();
 const User = require("../models/User");
+const parser = require('../config/cloudinary');
 
 // Bcrypt to encrypt passwords
 const bcrypt = require("bcrypt");
@@ -121,6 +122,16 @@ router.get('/loggedin', (req, res, next) => {
     }
     res.status(403)
         .json({ message: 'Unauthorized' });
+});
+
+router.post('/upload', parser.single('picture'), (req, res, next) => {
+    User.findOneAndUpdate({}, { image: req.file.url })
+        .then(() => {
+            res.json({
+                success: true,
+                image: req.file.url
+            })
+        })
 });
 
 module.exports = router;
