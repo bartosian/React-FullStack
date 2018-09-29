@@ -37,3 +37,7 @@
     display: block;
     width: 100%;
 }
+
+.profile-blog {
+    display: flex;
+}

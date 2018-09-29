@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const profilePage = (props) => (
-    <div className="home-wrapper">
+    <div className="home-wrapper profile-blog">
         <div className="info">
             <h1 className="header-info">Profile</h1>
             <div className="user-info info-name">
@@ -22,7 +22,13 @@ const profilePage = (props) => (
             </div>
             <AppButton bg="white"><Link className="Log-link" to="/logout">Logout</Link></AppButton>
         </div>
+        <div className="info">
+            <div>
+               <i className="fa fa-user-circle"></i>
+            </div>
+        </div>
     </div>
+
 );
 
 export default profilePage;
