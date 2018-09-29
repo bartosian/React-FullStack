@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d727a75-1f77-4669-bfb6-c6f51d2b9954" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/protected-route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile-app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/profile-app/.env" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +49,17 @@
       <file leaf-file-name="auth.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/routes/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
+            <state relative-caret-position="138">
               <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile-app/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -91,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Signup.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Signup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="171">
               <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -140,6 +146,7 @@
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/protected-route.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/App.js" />
         <option value="$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js" />
+        <option value="$PROJECT_DIR$/profile-app/.env" />
       </list>
     </option>
   </component>
@@ -159,7 +166,7 @@
       <path value="$PROJECT_DIR$/profile-app/public-react/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="140" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -312,12 +319,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538156595996</updated>
       <workItem from="1538156597483" duration="15478000" />
-      <workItem from="1538185136420" duration="4187000" />
+      <workItem from="1538185136420" duration="4780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19665000" />
+    <option name="totallyTimeSpent" value="20258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="921" extended-state="0" />
@@ -492,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-app/routes/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/auth-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -535,11 +535,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile-app/public-react/src/components/auth/Signup/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="171">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-app/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
